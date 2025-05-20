@@ -26,7 +26,7 @@ public partial class MainWindow : Window
         }
         else
         {
-            disPlay.Text = "Не корректный ввод!";
+            disPlay.Text = "Вводите только числа!";
         }
         disPlay.ToolTip = disPlay.Text;
     }
