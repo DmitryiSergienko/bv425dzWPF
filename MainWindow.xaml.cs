@@ -12,22 +12,42 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
-    private void SumNumbers(object sender, RoutedEventArgs e)
+    private void addButton_Click(object sender, RoutedEventArgs e)
     {
-        double xValue;
-        double yValue;
-        if (string.IsNullOrEmpty(firstValue.Text) || string.IsNullOrEmpty(secondValue.Text))
+        var text = itemsText.Text;
+        if (!string.IsNullOrWhiteSpace(text))
         {
-            disPlay.Text = "Заполните поля!";
+            listBox.Items.Add(itemsText.Text);
         }
-        else if (double.TryParse(firstValue.Text, out xValue) && double.TryParse(secondValue.Text, out yValue))
-        { 
-            disPlay.Text = $"{xValue} + {yValue} = {xValue + yValue}";
+        else 
+        {
+            System.Media.SystemSounds.Hand.Play();
+            MessageBox.Show("Поле не должно быть пустым или состоящим из пробелов!", "Ошибка!");
+        }
+
+        if (listBox.Items.Count > 0)
+        {
+            listBox.Visibility = Visibility.Visible;
+        }
+
+        itemsText.Clear();
+    }
+
+    private void deleteButton_Click(object sender, RoutedEventArgs e)
+    {
+        if (listBox.SelectedItem == null)
+        {
+            System.Media.SystemSounds.Hand.Play();
+            MessageBox.Show("Вы ничего не выбрали!", "Ошибка!");
         }
         else
         {
-            disPlay.Text = "Вводите только числа!";
+            listBox.Items.Remove(listBox.SelectedItem);
         }
-        disPlay.ToolTip = disPlay.Text;
+
+        if (listBox.Items.Count == 0)
+        {
+            listBox.Visibility = Visibility.Hidden;
+        }
     }
 }
