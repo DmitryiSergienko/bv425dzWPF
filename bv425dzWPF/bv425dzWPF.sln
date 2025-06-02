@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableInDataGrid", "..\Table
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsInDifferentWindows", "..\TestsInDifferentWindows\TestsInDifferentWindows.csproj", "{8C307C7D-6172-4A74-898A-318E2015728C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuWithFrames", "..\MenuWithFrames\MenuWithFrames.csproj", "{2B64920C-DB0A-4131-BFBF-94E7995419B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8C307C7D-6172-4A74-898A-318E2015728C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C307C7D-6172-4A74-898A-318E2015728C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C307C7D-6172-4A74-898A-318E2015728C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B64920C-DB0A-4131-BFBF-94E7995419B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B64920C-DB0A-4131-BFBF-94E7995419B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B64920C-DB0A-4131-BFBF-94E7995419B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B64920C-DB0A-4131-BFBF-94E7995419B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

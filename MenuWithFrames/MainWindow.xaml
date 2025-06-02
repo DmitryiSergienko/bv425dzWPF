@@ -1,0 +1,43 @@
+﻿<Window
+    x:Class="MenuWithFrames.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MenuWithFrames"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    Background="#60FFFFFF"
+    mc:Ignorable="d">
+    <StackPanel
+        Width="700"
+        Height="400"
+        Background="LightCoral"
+        Orientation="Horizontal">
+        <StackPanel Width="120" Background="LemonChiffon">
+            <Button
+                Name="HomePage"
+                Click="HomePage_Click"
+                Content="Home"
+                FontSize="24"
+                FontWeight="Black" />
+            <Button
+                Name="AboutPage"
+                Click="AboutPage_Click"
+                Content="About"
+                FontSize="24"
+                FontWeight="Black" />
+            <Button
+                Name="ContactPage"
+                Click="ContactPage_Click"
+                Content="Contact"
+                FontSize="24"
+                FontWeight="Black" />
+        </StackPanel>
+        <Frame
+            Name="MyFrame"
+            Width="580"
+            NavigationUIVisibility="Hidden" />
+    </StackPanel>
+</Window>

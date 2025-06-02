@@ -1,0 +1,41 @@
+﻿<Window
+    x:Class="bv425dzWPF.ModalWindows.DeleteModal"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:bv425dzWPF.ModalWindows"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="DeleteModal"
+    Width="800"
+    Height="280"
+    ShowInTaskbar="False"
+    Topmost="True"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+
+    <StackPanel Background="White">
+        <TextBlock
+            Padding="32"
+            FontSize="32"
+            Text="Ты уверен что хочешь удалить выбранные элементы?"
+            TextAlignment="Center"
+            TextWrapping="Wrap" />
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+            <Button
+                Name="yesButton"
+                Width="200"
+                Height="50"
+                Margin="0,0,100,0"
+                Click="yesButton_Click"
+                Content="Да"
+                FontSize="32" />
+            <Button
+                Name="noButton"
+                Width="200"
+                Height="50"
+                Click="noButton_Click"
+                Content="Нет"
+                FontSize="32" />
+        </StackPanel>
+    </StackPanel>
+</Window>

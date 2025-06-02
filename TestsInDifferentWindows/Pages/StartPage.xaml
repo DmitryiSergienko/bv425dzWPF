@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="TestsInDifferentWindows.Pages.StartPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:TestsInDifferentWindows.Pages"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="StartPage"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+
+    <StackPanel
+        Width="700"
+        Height="350"
+        Background="White">
+        <TextBlock
+            Width="700"
+            Height="140"
+            Margin="0,80,0,0"
+            VerticalAlignment="Center"
+            FontSize="32"
+            Text="Тест состоит из трёх вопросов.&#x0A;Тест не на время.&#x0A;Желаю удачи!"
+            TextAlignment="Center" />
+        <Button
+            Name="startTest"
+            Width="200"
+            Height="40"
+            Background="#80000000"
+            Click="startTest_Click"
+            Content="Начать тест"
+            FontSize="24" />
+    </StackPanel>
+
+</Page>
