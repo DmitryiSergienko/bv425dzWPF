@@ -1,0 +1,12 @@
+C:\Users\Sergienko\source\repos\bv425dzWPF\Model_TasksToDo\bin\Debug\net9.0\Model_TasksToDo.deps.json
+C:\Users\Sergienko\source\repos\bv425dzWPF\Model_TasksToDo\bin\Debug\net9.0\Model_TasksToDo.dll
+C:\Users\Sergienko\source\repos\bv425dzWPF\Model_TasksToDo\bin\Debug\net9.0\Model_TasksToDo.pdb
+C:\Users\Sergienko\source\repos\bv425dzWPF\Model_TasksToDo\obj\Debug\net9.0\Model_TasksToDo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergienko\source\repos\bv425dzWPF\Model_TasksToDo\obj\Debug\net9.0\Model_TasksToDo.AssemblyInfoInputs.cache
+C:\Users\Sergienko\source\repos\bv425dzWPF\Model_TasksToDo\obj\Debug\net9.0\Model_TasksToDo.AssemblyInfo.cs
+C:\Users\Sergienko\source\repos\bv425dzWPF\Model_TasksToDo\obj\Debug\net9.0\Model_TasksToDo.csproj.CoreCompileInputs.cache
+C:\Users\Sergienko\source\repos\bv425dzWPF\Model_TasksToDo\obj\Debug\net9.0\Model_TasksToDo.sourcelink.json
+C:\Users\Sergienko\source\repos\bv425dzWPF\Model_TasksToDo\obj\Debug\net9.0\Model_TasksToDo.dll
+C:\Users\Sergienko\source\repos\bv425dzWPF\Model_TasksToDo\obj\Debug\net9.0\refint\Model_TasksToDo.dll
+C:\Users\Sergienko\source\repos\bv425dzWPF\Model_TasksToDo\obj\Debug\net9.0\Model_TasksToDo.pdb
+C:\Users\Sergienko\source\repos\bv425dzWPF\Model_TasksToDo\obj\Debug\net9.0\ref\Model_TasksToDo.dll

@@ -1,0 +1,16 @@
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\bin\Debug\net9.0-windows\ViewModel_TasksToDo.deps.json
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\bin\Debug\net9.0-windows\ViewModel_TasksToDo.dll
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\bin\Debug\net9.0-windows\ViewModel_TasksToDo.pdb
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\obj\Debug\net9.0-windows\ViewModel_TasksToDo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\obj\Debug\net9.0-windows\ViewModel_TasksToDo.AssemblyInfoInputs.cache
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\obj\Debug\net9.0-windows\ViewModel_TasksToDo.AssemblyInfo.cs
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\obj\Debug\net9.0-windows\ViewModel_TasksToDo.csproj.CoreCompileInputs.cache
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\obj\Debug\net9.0-windows\ViewModel_TasksToDo.sourcelink.json
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\obj\Debug\net9.0-windows\ViewModel_TasksToDo.dll
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\obj\Debug\net9.0-windows\refint\ViewModel_TasksToDo.dll
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\obj\Debug\net9.0-windows\ViewModel_TasksToDo.pdb
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\obj\Debug\net9.0-windows\ref\ViewModel_TasksToDo.dll
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\obj\Debug\net9.0-windows\ViewModel_TasksToDo.csproj.AssemblyReference.cache
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\bin\Debug\net9.0-windows\Model_TasksToDo.dll
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\bin\Debug\net9.0-windows\Model_TasksToDo.pdb
+C:\Users\Sergienko\source\repos\bv425dzWPF\ViewModel_TasksToDo\obj\Debug\net9.0-windows\ViewMode.4709FC1A.Up2Date

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ViewModel_TasksToDo/1.0.0": {
+        "dependencies": {
+          "Model_TasksToDo": "1.0.0"
+        },
+        "runtime": {
+          "ViewModel_TasksToDo.dll": {}
+        }
+      },
+      "Model_TasksToDo/1.0.0": {
+        "runtime": {
+          "Model_TasksToDo.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ViewModel_TasksToDo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Model_TasksToDo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

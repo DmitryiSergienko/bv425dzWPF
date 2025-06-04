@@ -1,0 +1,62 @@
+﻿<Window
+    x:Class="View_TasksToDo.ToDo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:View_TasksToDo"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodel_taskstodo="clr-namespace:ViewModel_TasksToDo;assembly=ViewModel_TasksToDo"
+    Title="ToDo"
+    Width="1600"
+    Height="900"
+    d:DataContext="{d:DesignInstance Type=viewmodel_taskstodo:ToDoViewModel}"
+    mc:Ignorable="d">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="150" />
+            </Grid.RowDefinitions>
+            <ListBox Grid.Row="0" ItemsSource="{Binding Tasks}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <CheckBox
+                                Margin="0,8,20,0"
+                                Command="{Binding DataContext.ToggleTaskCompletionCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
+                                CommandParameter="{Binding}"
+                                IsChecked="{Binding IsCompleted, Mode=TwoWay}">
+                                <CheckBox.RenderTransform>
+                                    <ScaleTransform ScaleX="2" ScaleY="2" />
+                                </CheckBox.RenderTransform>
+                            </CheckBox>
+                            <TextBlock
+                                Width="600"
+                                VerticalAlignment="Center"
+                                FontSize="32"
+                                Text="{Binding Name}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <StackPanel Grid.Row="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Название" FontSize="32" />
+                    <TextBox
+                        Width="350"
+                        Height="40"
+                        FontSize="32"
+                        Text="{Binding TextTask}" />
+                </StackPanel>
+                <Button
+                    Command="{Binding AddTaskCommand}"
+                    Content="Добавить"
+                    FontSize="32" />
+                <Button
+                    Command="{Binding SaveTasksToFileCommand}"
+                    Content="Записать"
+                    FontSize="32" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

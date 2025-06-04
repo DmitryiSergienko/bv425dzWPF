@@ -85,7 +85,7 @@ namespace TestsInDifferentWindows.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TestsInDifferentWindows;V1.0.0.0;component/pages/results.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TestsInDifferentWindows;component/pages/results.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\Results.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

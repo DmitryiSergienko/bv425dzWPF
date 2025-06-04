@@ -1,0 +1,105 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-windows7.0": {
+      "Model_TasksToDo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Model_TasksToDo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model_TasksToDo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Model_TasksToDo/1.0.0": {
+      "type": "project",
+      "path": "../Model_TasksToDo/Model_TasksToDo.csproj",
+      "msbuildProject": "../Model_TasksToDo/Model_TasksToDo.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0-windows7.0": [
+      "Model_TasksToDo >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Sergienko\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Sergienko\\source\\repos\\bv425dzWPF\\ViewModel_TasksToDo\\ViewModel_TasksToDo.csproj",
+      "projectName": "ViewModel_TasksToDo",
+      "projectPath": "C:\\Users\\Sergienko\\source\\repos\\bv425dzWPF\\ViewModel_TasksToDo\\ViewModel_TasksToDo.csproj",
+      "packagesPath": "C:\\Users\\Sergienko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sergienko\\source\\repos\\bv425dzWPF\\ViewModel_TasksToDo\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Sergienko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Sergienko\\source\\repos\\bv425dzWPF\\Model_TasksToDo\\Model_TasksToDo.csproj": {
+              "projectPath": "C:\\Users\\Sergienko\\source\\repos\\bv425dzWPF\\Model_TasksToDo\\Model_TasksToDo.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

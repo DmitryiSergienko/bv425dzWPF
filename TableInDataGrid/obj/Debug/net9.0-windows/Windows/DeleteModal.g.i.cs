@@ -69,7 +69,7 @@ namespace bv425dzWPF.ModalWindows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TableInDataGrid;V1.0.0.0;component/windows/deletemodal.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TableInDataGrid;component/windows/deletemodal.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\DeleteModal.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
