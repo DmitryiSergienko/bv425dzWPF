@@ -1,6 +1,11 @@
-﻿using Model_TasksToDo;
+﻿using Microsoft.Win32;
+using Model_TasksToDo;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.IO;
+using System.Threading.Tasks;
+using System.Windows;
 
 namespace ViewModel_TasksToDo;
 
@@ -37,22 +42,19 @@ public class ToDoViewModel : INotifyPropertyChanged
 
         AddTaskCommand = new(AddTask);
         ToggleTaskCompletionCommand = new(ToggleTaskCompletion);
-        SaveTasksToFileCommand = new(SaveTasksToFile);
     }
 
     public void ToggleTaskCompletion(object? parameter)
     {
-        if (parameter is TaskViewModel taskViewModel)
-        {
-            taskViewModel.IsCompleted = !taskViewModel.IsCompleted;
-        }
+        if (parameter is TaskViewModel task)
+    {
+        task.IsCompleted = !task.IsCompleted;
     }
-
-    public RelayCommand SaveTasksToFileCommand { get; set; }
+    }
     public RelayCommand ToggleTaskCompletionCommand { get; set; }
     public RelayCommand AddTaskCommand { get; set; }
 
-    private void SaveTasksToFile(object? parameter)
+    public void SaveTasksToFile(string filePath)
     {
         var tasksModel = new List<TaskModel>();
 
@@ -67,8 +69,27 @@ public class ToDoViewModel : INotifyPropertyChanged
             tasksModel.Add(taskModel);
         }
 
-        new TaskManager(tasksModel).Write();
+        new TaskManager().Write(tasksModel, filePath);
     }
+    public void LoadTasksFromFile(string filePath)
+    {
+        var loadedTasks = new TaskManager().Read(filePath);
+
+        if (loadedTasks != null && loadedTasks.Count > 0)
+        {
+            Tasks.Clear();
+
+            foreach (var taskModel in loadedTasks)
+            {
+                Tasks.Add(new TaskViewModel
+                {
+                    Name = taskModel.Name,
+                    IsCompleted = taskModel.IsCompleted
+                });
+            }
+        }
+    }
+
     private void AddTask(object? parameter)
     {
         var taskViewModel = new TaskViewModel

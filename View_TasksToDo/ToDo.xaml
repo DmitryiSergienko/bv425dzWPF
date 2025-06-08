@@ -15,7 +15,7 @@
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
-                <RowDefinition Height="150" />
+                <RowDefinition Height="80" />
             </Grid.RowDefinitions>
             <ListBox Grid.Row="0" ItemsSource="{Binding Tasks}">
                 <ListBox.ItemTemplate>
@@ -25,7 +25,7 @@
                                 Margin="0,8,20,0"
                                 Command="{Binding DataContext.ToggleTaskCompletionCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
                                 CommandParameter="{Binding}"
-                                IsChecked="{Binding IsCompleted, Mode=TwoWay}">
+                                IsChecked="{Binding IsCompleted, Mode=OneWay}">
                                 <CheckBox.RenderTransform>
                                     <ScaleTransform ScaleX="2" ScaleY="2" />
                                 </CheckBox.RenderTransform>
@@ -39,22 +39,38 @@
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-            <StackPanel Grid.Row="1">
-                <StackPanel Orientation="Horizontal">
-                    <Label Content="Название" FontSize="32" />
-                    <TextBox
-                        Width="350"
-                        Height="40"
-                        FontSize="32"
-                        Text="{Binding TextTask}" />
-                </StackPanel>
+            <StackPanel
+                Grid.Row="1"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Orientation="Horizontal">
+                <Label
+                    Margin="20,0"
+                    Content="Название"
+                    FontSize="32" />
+                <TextBox
+                    Width="350"
+                    Height="40"
+                    Margin="20,0"
+                    FontSize="32"
+                    Text="{Binding TextTask}" />
                 <Button
+                    Margin="20,0"
+                    Padding="10,0"
                     Command="{Binding AddTaskCommand}"
                     Content="Добавить"
                     FontSize="32" />
                 <Button
-                    Command="{Binding SaveTasksToFileCommand}"
-                    Content="Записать"
+                    Margin="20,0"
+                    Padding="10,0"
+                    Click="SaveTasks"
+                    Content="Сохранить"
+                    FontSize="32" />
+                <Button
+                    Margin="20,0"
+                    Padding="10,0"
+                    Click="LoadTasks"
+                    Content="Загрузить"
                     FontSize="32" />
             </StackPanel>
         </Grid>

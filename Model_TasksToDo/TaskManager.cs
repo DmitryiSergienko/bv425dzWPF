@@ -1,19 +1,29 @@
-﻿namespace Model_TasksToDo;
+﻿using System.Collections.Generic;
+using System.Runtime.Serialization.Json;
+using System.Text.Json;
+using System.Threading.Tasks;
+
+namespace Model_TasksToDo;
 
 public class TaskManager
 {
-    private readonly List<TaskModel> _tasks;
-    public TaskManager(List<TaskModel> tasks)
+    public void Write(List<TaskModel> tasks, string filePath)
     {
-        _tasks = tasks;
+        //Сериализовать и сохранить в файл
+        var options = new JsonSerializerOptions { WriteIndented = true };
+        string json = JsonSerializer.Serialize(tasks, options);
+        File.WriteAllText(filePath, json);
     }
 
-    public void Write()
+    public List<TaskModel> Read(string filePath)
     {
-        foreach (var task in _tasks)
+        //Десериализовать и читать с файла
+        if (!File.Exists(filePath))
         {
-            // Файл будет лежать в тойже директории что и папка проекта
-            File.AppendAllText(@"../../../../tasks.txt", $"{task}\n"); 
+            return [];
         }
+
+        string json = File.ReadAllText(filePath);
+        return JsonSerializer.Deserialize<List<TaskModel>>(json) ?? [];
     }
 }
