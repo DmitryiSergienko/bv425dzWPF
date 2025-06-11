@@ -1,0 +1,18 @@
+﻿<Window
+    x:Class="UserControlForms.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:UserControlForms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:userControls="clr-namespace:UserControlForms.UserControls"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    Background="#80FFFFFF"
+    mc:Ignorable="d">
+    <StackPanel>
+        <userControls:UserForm Title="Название" MaxLength="100" />
+        <userControls:UserForm Title="Описание" MaxLength="1000" />
+    </StackPanel>
+</Window>
