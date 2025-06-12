@@ -1,0 +1,17 @@
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\obj\Debug\net9.0-windows\ImageWithText.g.cs
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\obj\Debug\net9.0-windows\WpfControlLibrary_MarkupCompile.cache
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\bin\Debug\net9.0-windows\WpfControlLibrary.deps.json
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\bin\Debug\net9.0-windows\WpfControlLibrary.dll
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\bin\Debug\net9.0-windows\WpfControlLibrary.pdb
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\obj\Debug\net9.0-windows\ImageWithText.baml
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\obj\Debug\net9.0-windows\WpfControlLibrary.g.resources
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\obj\Debug\net9.0-windows\WpfControlLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\obj\Debug\net9.0-windows\WpfControlLibrary.AssemblyInfoInputs.cache
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\obj\Debug\net9.0-windows\WpfControlLibrary.AssemblyInfo.cs
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\obj\Debug\net9.0-windows\WpfControlLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\obj\Debug\net9.0-windows\WpfControlLibrary.sourcelink.json
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\obj\Debug\net9.0-windows\WpfControlLibrary.dll
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\obj\Debug\net9.0-windows\refint\WpfControlLibrary.dll
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\obj\Debug\net9.0-windows\WpfControlLibrary.pdb
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\obj\Debug\net9.0-windows\ref\WpfControlLibrary.dll
+C:\Users\Sergienko\source\repos\bv425dzWPF\MVVMDataGrid\WpfControlLibrary\obj\Debug\net9.0-windows\WpfControlLibrary_MarkupCompile.lref

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Model_TasksToDo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95711a9f374bbeebdb6d5a9a2058c1ff050162f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41258270f8cf154afce2eac13f317c2c28da05a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Model_TasksToDo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Model_TasksToDo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
